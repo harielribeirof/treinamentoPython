@@ -168,4 +168,3 @@ print('ANTES: \n' + str(lista))
 lista = insertion(lista)
 print('DEPOIS: \n' + str(lista))                     
 ```
-
