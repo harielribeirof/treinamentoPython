@@ -7,8 +7,6 @@ Este projeto visa fornecer um treinamento básico em Python, focando nos pontos:
 - [Primeiros passos](https://github.com/harielribeirof/treinamentoPython/blob/main/02%20-%20primeiros%20passos%20e%20comentarios/primeiros_passos.md)
 - [Variáveis](https://github.com/harielribeirof/treinamentoPython/blob/main/03%20-%20vari%C3%A1veis/variaveis.md)
 - Estruturas de controle de fluxo
-	- Condicional
-	- Laços de repetição
 - Funções
 # Referências
 - https://docs.python.org/pt-br/3/
