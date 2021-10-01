@@ -214,7 +214,7 @@ print(fruta_1 in frutas) # True
 print(fruta_2 in frutas) # False
 ```
 
-# Exemplo
+# Exemplo 1
 
 Nesse exemplo, faremos um programa que receba o nome de um aluno e suas 4 notas bimestrais. Ao final, apresentar o nome junto a média anual.
 
