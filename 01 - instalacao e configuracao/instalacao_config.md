@@ -15,24 +15,10 @@ Ao fim do processo de instalação, feche o programa.
 
 # Configuração do ambiente de desenvolvimento
 
-Neste treinamento, foi feita a escolha por utilizar a IDE PyCharm.
-
-Efetue o download da versão Community no site [jetbrains.com](https://www.jetbrains.com/pycharm/download/#section=windows).
+Após a instalação, procure pelo programa IDLE e o abra.
 
 ![](install4.png)
 
-Uma vez que o processo de download tenha terminado, abra o executável.
+É nele que serão interpretados os códigos criados nesse treinamento.
 
-![](install5.png)
-
-Siga os passos sugeridos pelo instalador até que o procedimento termine.
-
-Após a conclusão da instalação, abra o PyCharm. Na tela inicial, crie um novo projeto.
-
-![](install6.png)
-
-Na próxima tela, apenas clique em *create*.
-
-![](install7.png)
-
-O projeto será aberto com um arquivo *main.py*. Apague todo o conteúdo dentro dele.
+Pronto! Configurações concluídas! Agora vamos dar os [primeiros passos](https://github.com/harielribeirof/treinamentoPython/blob/main/02%20-%20primeiros%20passos%20e%20comentarios/primeiros_passos.md).
