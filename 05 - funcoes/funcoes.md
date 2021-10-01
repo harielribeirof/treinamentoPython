@@ -85,3 +85,39 @@ Serve para marcar o fim de uma função ou estrutura de controle de fluxo. No ca
 def funcao():
     pass
 ```
+
+# Exemplo
+
+Nesse exemplo, o usuário deverá fornecer um número inteiro e o programa deverá revertê-lo. Ou seja, ao inserir o número "123", o programa deve apresentar o número "321".
+
+Para isso, criaremos a função *reverter()* que receberá como argumento um *int*.
+
+```python
+# Definir a função
+def reverter(n):
+    aux = ""            # variável auxiliar
+    numero = str(n)     # casting do numero para string
+    tam = len(str(n))   # guarda o tamanho da string do numero
+
+    while(tam > 0):                 # laço para reverter o número
+        aux = aux + numero[tam-1]
+        tam -= 1
+    return int(aux)     # retorno da função
+```
+
+O código acima irá utilizar três variáveis auxiliares: `aux` para receber o número revertido, `numero` para guardar a string que representa o número e por último `tam`, que irá guardar o tamanho da string.
+
+Feito isso, cria-se um laço *while* para reverter o número, concatenando o último caractere de `numero` com `aux`. No final da função, há o retorno do número inteiro revertido.
+
+```python
+# Receber as entradas dos usuário
+numero = input("Digite o número que deseja reverter: ")
+
+# Chamar a função
+numero = reverter(numero)
+
+# Apresentar os resultados
+print(numero)
+```
+
+Por fim, o programa deverá receber a entrada de um número inteiro do usuário, chamar a função e apresentar o resultado.
