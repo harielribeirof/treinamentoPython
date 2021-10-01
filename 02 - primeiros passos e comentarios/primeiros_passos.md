@@ -28,4 +28,3 @@ Muitos códigos de exemplo nesse treinamento terão a presença de comentários.
 # isso é um comentário
 print('Hello World!')
 ```
-
