@@ -121,3 +121,51 @@ print(numero)
 ```
 
 Por fim, o programa deverá receber a entrada de um número inteiro do usuário, chamar a função e apresentar o resultado.
+
+# Exemplo 4
+
+Como último exemplo do treinamento, iremos implementar o método de ordenação de vetores *Insertion Sort*.
+
+![Alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.informaticalab.com%2Fwp-content%2Fuploads%2F2013%2F05%2Finsertion-sort-example.gif&f=1&nofb=1)
+
+Primeiramente, é importante ressaltar que importaremos a biblioteca para a geração de números aleatórios. Dessa forma, será possível gerar listas com elementos aleatórios toda vez que o programa rodar.
+
+```python
+# Importar biblioteca
+import random
+```
+
+Agora, definiremos a função *insertion()*, que receberá como argumento uma lista de números e retornará ela ordenada.
+```python
+# Definir função
+def insertion(lista):
+    for i in range(1, len(lista)):
+        chave = lista[i]             
+        j = i - 1                
+        while j >= 0 and lista[j] > chave: 
+            lista[j+1] = lista[j]
+            j -= 1
+        lista[j + 1] = chave
+    return lista                      
+```
+
+Feito isso, agora geraremos a lista com elementos aleatórios. Para isso, utilizaremos um laço *for* que irá iterar 50 vezes. Em cada iteração, adiciona-se um elemento ao final da lista com o uso do método *append()*. O `random.randint(1,100)` é o método da biblioteca *random* responsável por gerar um número aleatório entre 1 e 100.
+
+```python
+# Lista
+lista = []
+
+# Gerar elementos aleatórios e adicioná-los a lista
+for i in range(50):
+    lista.append(random.randint(1,100))
+```
+
+Por fim, serão apresentados os estados da lista antes e depois de ser ordenada.
+
+```python
+# Apresentar resultados
+print('ANTES: \n' + str(lista))
+lista = insertion(lista)
+print('DEPOIS: \n' + str(lista))                     
+```
+
