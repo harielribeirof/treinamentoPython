@@ -124,7 +124,7 @@ for i in range(4):
 
 # Exemplo
 
-Nesse exemplo, o usuário deve inserir uma lista de 10 números e o programa deve retornar a quantidade de números pares e ímpares.
+Nesse exemplo, o usuário deve inserir uma lista de 10 números e o programa deve retornar a quantidade de números que são pares e ímpares.
 
 O primeiro passo é criar as variáveis e receber as entradas.
 
