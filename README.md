@@ -9,7 +9,7 @@ Este projeto visa fornecer um treinamento básico em Python, seguindo os seguint
 4. [Estruturas de controle de fluxo](https://github.com/harielribeirof/treinamentoPython/blob/main/04%20-%20estruturas%20de%20controle%20de%20fluxo/condicional_repeticao.md)
 5. [Funções](https://github.com/harielribeirof/treinamentoPython/blob/main/05%20-%20funcoes/funcoes.md)
 
-Os códigos dos exemplos mostrados nesse treinamento estão em codigos.
+Os códigos dos exemplos mostrados nesse treinamento estão em [codigos](https://github.com/harielribeirof/treinamentoPython/tree/main/codigos).
 # Referências
 - https://docs.python.org/pt-br/3/
 - https://pt.wikipedia.org/wiki/Python
