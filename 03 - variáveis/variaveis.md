@@ -214,4 +214,38 @@ print(fruta_1 in frutas) # True
 print(fruta_2 in frutas) # False
 ```
 
+# Exemplo
+
+Nesse exemplo, faremos um programa que receba o nome de um aluno e suas 4 notas bimestrais. Ao final, apresentar o nome junto a média anual.
+
+O primeiro passo é receber a entrada do nome do aluno. Para isso utilizaremos o método *input()*.
+
+```python
+nome = input('Digite o nome do aluno: ')
+```
+
+Feito isso, agora receberemos as notas. Note que nessa parte é necessário fazer um *casting* das notas para *float*, pois o *input()* retorna um string. Dessa forma, será possível calcular a média.
+
+```python
+nota1 = float(input('Digite a primeira nota: '))
+nota2 = float(input('Digite a segunda nota: '))
+nota3 = float(input('Digite a terceira nota: '))
+nota4 = float(input('Digite a quarta nota: '))
+```
+
+Agora efetuaremos o cálculo da média.
+
+```python
+media = (nota1 + nota2 + nota3 + nota4)/4
+```
+
+Por fim, mostra-se os resultados. Lembrando novamente da necessidade de fazer o *casting*, agora de float para string.
+
+```python
+print('Nome: ' + nome)
+print('Média: ' + str(media)) # casting de float para string
+```
+
+* * *
 O próximo assunto a ser tratado será as [Estruturas de Controle de Fluxo](https://github.com/harielribeirof/treinamentoPython/blob/main/04%20-%20estruturas%20de%20controle%20de%20fluxo/condicional_repeticao.md).
+
