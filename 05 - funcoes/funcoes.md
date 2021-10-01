@@ -79,7 +79,7 @@ print(funcao())
 
 ## Comandos *pass*
 
-Serve para marcar o fim de uma função ou estrutura de controle de fluxo. No caso da função, é útil para criar uma função sem conteúdo.
+Serve para marcar o fim de uma função ou estrutura de controle de fluxo. No caso das funções, é útil para criar uma função sem conteúdo.
 
 ```python
 def funcao():
