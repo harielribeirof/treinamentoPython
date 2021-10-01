@@ -4,7 +4,7 @@ Python é uma linguagem de programação de alto nível, interpretada de script,
 
 Este projeto visa fornecer um treinamento básico em Python, focando nos pontos:
 - [Instalação do Python e configuração do ambiente de desenvolvimento](https://github.com/harielribeirof/treinamentoPython/blob/main/01%20-%20instalacao%20e%20configuracao/instalacao_config.md "Instalação do Python e configuração do ambiente de desenvolvimento")
-- Primeiros passos e Comentários
+- [Primeiros passos](https://github.com/harielribeirof/treinamentoPython/blob/main/02%20-%20primeiros%20passos%20e%20comentarios/primeiros_passos.md)
 - Variáveis
 - Estruturas de controle de fluxo
 	- Condicional
