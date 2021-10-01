@@ -122,4 +122,46 @@ for i in range(4):
 #           terminou
 ```
 
+# Exemplo
+
+Nesse exemplo, o usuário deve inserir uma lista de 10 números e o programa deve retornar a quantidade de números pares e ímpares.
+
+O primeiro passo é criar as variáveis e receber as entradas.
+
+```python
+# Criação das variáveis
+lista = []
+par = 0
+impar = 0
+```
+Para receber as entradas foi feito um laço *for* e se utilizou do método *append()* para adicionar novos elementos na lista. Lembrando sempre de fazer o *casting* da entrada para *int*.
+
+```python
+# Entradas
+for i in range(10):
+    lista.append(int(input('Digite um número inteiro: ')))
+```
+
+Agora será feito o cálculo para identificar quais números são pares e e quais são ímpares.
+
+```python
+# Cálculo do número de pares e ímpares
+for i in lista:
+    if (i % 2) == 0:
+        par += 1
+    else:
+        impar += 1
+```
+
+Por fim, serão apresentados os resultados. Nesse caso, optou-se pela utilização do método *format()* para formatação de uma string. Esse método substitui os termos dentro das chaves na string pelos escolhidos pelo programador.
+
+```python
+# Apresentar resultados
+texto = 'Quantidade de {tipo}: {var}'
+
+print(texto.format(tipo = 'par', var = par))
+print(texto.format(tipo = 'ímpar', var = impar))
+```
+
+* * *
 O próximo assunto a ser tratado será [Funções](https://github.com/harielribeirof/treinamentoPython/blob/main/05%20-%20funcoes/funcoes.md).
