@@ -86,7 +86,7 @@ def funcao():
     pass
 ```
 
-# Exemplo
+# Exemplo 3
 
 Nesse exemplo, o usuário deverá fornecer um número inteiro e o programa deverá revertê-lo. Ou seja, ao inserir o número "123", o programa deve apresentar o número "321".
 
