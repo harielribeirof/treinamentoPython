@@ -12,7 +12,7 @@ Feito isso, será aberto um arquivo em branco. Como primeiro teste, faremos um p
 print('Hello World!')
 ```
 
-Agora, rode o programa.
+Agora rode o programa.
 
 ![](primeiros02.png)
 
@@ -20,4 +20,12 @@ Irá aparecer um pedido para que o arquivo seja salvo, faça-o em um local de su
 
 ![](primeiros03.png)
 
-## Comentários
+# Comentários
+
+Muitos códigos de exemplo nesse treinamento terão a presença de comentários. Em Python, o caractere cerquilha *'#'* indica o início de um comentário até o fim da linha.
+
+```python
+# isso é um comentário
+print('Hello World!')
+```
+
