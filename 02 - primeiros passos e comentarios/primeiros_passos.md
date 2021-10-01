@@ -28,3 +28,5 @@ Muitos códigos de exemplo nesse treinamento terão a presença de comentários.
 # isso é um comentário
 print('Hello World!')
 ```
+
+O próximo conteúdo a ser tratado serão as [variáveis](https://github.com/harielribeirof/treinamentoPython/blob/main/03%20-%20vari%C3%A1veis/variaveis.md).
