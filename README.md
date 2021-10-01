@@ -13,5 +13,7 @@ Este projeto visa fornecer um treinamento básico em Python, focando nos pontos:
 # Referências
 - https://docs.python.org/pt-br/3/
 - https://pt.wikipedia.org/wiki/Python
+- https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python
+- https://www.devmedia.com.br/operadores-no-python/40693
 
 
