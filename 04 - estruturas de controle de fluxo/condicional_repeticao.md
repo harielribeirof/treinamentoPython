@@ -122,7 +122,7 @@ for i in range(4):
 #           terminou
 ```
 
-# Exemplo
+# Exemplo 2
 
 Nesse exemplo, o usuário deve inserir uma lista de 10 números e o programa deve retornar a quantidade de números que são pares e ímpares.
 
