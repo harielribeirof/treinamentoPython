@@ -213,3 +213,5 @@ fruta_2 = "melancia"
 print(fruta_1 in frutas) # True
 print(fruta_2 in frutas) # False
 ```
+
+O próximo assunto a ser tratado será as [Estruturas de Controle de Fluxo](https://github.com/harielribeirof/treinamentoPython/blob/main/04%20-%20estruturas%20de%20controle%20de%20fluxo/condicional_repeticao.md).
