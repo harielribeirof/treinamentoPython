@@ -21,3 +21,18 @@ Efetue o download da versão Community no site [jetbrains.com](https://www.jetbr
 
 ![](install4.png)
 
+Uma vez que o processo de download tenha terminado, abra o executável.
+
+![](install5.png)
+
+Siga os passos sugeridos pelo instalador até que o procedimento termine.
+
+Após a conclusão da instalação, abra o PyCharm. Na tela inicial, crie um novo projeto.
+
+![](install6.png)
+
+Na próxima tela, apenas clique em *create*.
+
+![](install7.png)
+
+O projeto será aberto com um arquivo *main.py*. Apague todo o conteúdo dentro dele.
